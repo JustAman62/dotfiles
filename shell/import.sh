@@ -1,10 +1,16 @@
-local dir=${0:a:h}
+local DOTFILE_DIR=${0:a:h}
 
-source "$dir/aliases.sh"
-source "$dir/config.sh"
-source "$dir/functions.sh"
+source "$DOTFILE_DIR/aliases.sh"
+source "$DOTFILE_DIR/config.sh"
+source "$DOTFILE_DIR/functions.sh"
+
 
 reload() {
-    source "$dir/import.sh"
+    source "$DOTFILE_DIR/import.sh"
     echo "Reloaded"
+}
+
+reloadprofile() {
+    source "$HOME/.zshrc"
+    echo "Reloaded zshrc"
 }
