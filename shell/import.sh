@@ -1,4 +1,4 @@
-local DOTFILE_DIR=${0:a:h}
+DOTFILE_DIR=${0:a:h}
 
 source "$DOTFILE_DIR/aliases.sh"
 source "$DOTFILE_DIR/config.sh"
