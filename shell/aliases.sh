@@ -1,6 +1,7 @@
 # Shell Utils
 
 alias c="clear"
+alias la='ls -lAh'
 
 # Git Aliases
 
