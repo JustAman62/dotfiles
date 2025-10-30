@@ -115,9 +115,9 @@ HL_SPACE_CHAR=' '
 
 # Template for each segment's content
 declare -A HL_CONTENT_TEMPLATE=(
-  PATH   "%{$bold$blue%}..." # consider ' ' or ' '
+  PATH   "%{$bold$green%}..." # consider ' ' or ' '
   BRANCH "%{$bold$cyan%}..." # consider ' ' or ' '
-  STATUS "%{$bold$magenta%}..."
+  STATUS "%{$bold$yellow%}..."
   DATE   "%{$bold$light_black%}..."
   # ...
 )
@@ -133,7 +133,7 @@ declare -A HL_CONTENT_SOURCE=(
 
 
 # Show count of each status always, only when greater than one, or don't show
-HL_GIT_COUNT_MODE='off' # on|auto|off
+HL_GIT_COUNT_MODE='on' # on|auto|off
 
 # Symbol to join each status
 HL_GIT_SEP_SYMBOL=''
@@ -182,6 +182,7 @@ HL_TRUNC_REMOVAL=2
 
 # Prompt
 HL_PROMPT='%(#.#.%(!.!.$)) ' # consider '%#'
+HL_PROMPT="$bold$green➜$reset "
 
 # Right prompt
 HL_RPROMPT=''
