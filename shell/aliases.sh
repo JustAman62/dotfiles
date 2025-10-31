@@ -6,8 +6,14 @@ alias la='ls -lAh'
 # Git Aliases
 
 alias comp="git checkout master && git pull"
-alias rbom="git fetch && git rebase origin/master"
+alias rb="git fetch && git rebase origin/master"
 alias pu="git push -u origin HEAD"
+
+# Docker Aliases
+
+alias dup="docker compose up -d"
+alias ddown="docker compose down --remove-orphans"
+alias dps="docker compose ps"
 
 # Utils
 
