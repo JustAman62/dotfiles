@@ -86,7 +86,7 @@ HL_LAYOUT_STYLE="%{$faint%}"
 
 # Order of segments
 declare -a HL_LAYOUT_ORDER=(
-  _PRE PATH BRANCH STATUS _SPACER DATE _POST # ...
+  _PRE PATH BRANCH STATUS _SPACER DIRENV DATE _POST # ...
 )
 
 # Template for each segment's layout
@@ -96,6 +96,7 @@ declare -A HL_LAYOUT_TEMPLATE=(
   BRANCH  ' ...'
   STATUS  ' [...]'
   _SPACER ' | ' # special, only shows when compact, otherwise fill with space
+  DIRENV ' ...'
   DATE  ' ...'
   _POST   ''
   # ...
@@ -118,6 +119,7 @@ declare -A HL_CONTENT_TEMPLATE=(
   PATH   "%{$bold$green%}..." # consider ' ' or ' '
   BRANCH "%{$bold$cyan%}..." # consider ' ' or ' '
   STATUS "%{$bold$yellow%}..."
+  DIRENV "%{$bold$green%}..."
   DATE   "%{$bold$light_black%}..."
   # ...
 )
@@ -127,6 +129,7 @@ declare -A HL_CONTENT_SOURCE=(
   PATH   'print -rP "%~"'
   BRANCH 'headline-git-branch'
   STATUS 'headline-git-status'
+  DIRENV 'headline-direnv-status'
   DATE   'date "+%H:%M:%S"'
   # ...
 )
@@ -167,7 +170,7 @@ declare -A HL_COLS_REMOVAL=(
 
 # Order to truncate & remove segments
 declare -a HL_TRUNC_ORDER=(
-  HOST USER VENV PATH BRANCH DATE # ...
+  HOST USER VENV PATH BRANCH DATE DIRENV # ...
 )
 
 # Symbol to insert when truncating a segment
@@ -410,6 +413,19 @@ headline-git-status() {
       fi
     fi
   done
+  echo $result
+}
+
+# Get the current direnv status
+headline-direnv-status() {
+  local result=''
+
+  if [[ $(direnv status) =~ "Found RC allowed true" ]]; then
+    result+="%{$reset$red%}ENV LOADED%{$reset%}"
+  elif [[ $(direnv status) =~ "Found RC allowed false" ]]; then
+    result+="%{$reset$yellow%}BLOCKED%{$reset%}"
+  fi
+
   echo $result
 }
 
