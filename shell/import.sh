@@ -1,4 +1,8 @@
-DOTFILE_DIR=${0:a:h}
+if [[ $SHELL =~ "bash" ]]; then
+    DOTFILE_DIR=$(dirname $(realpath ${BASH_SOURCE[0]}));
+elif [[ $SHELL =~ "zsh" ]]; then
+    DOTFILE_DIR=${0:a:h};
+fi
 
 source "$DOTFILE_DIR/aliases.sh"
 source "$DOTFILE_DIR/config.sh"
@@ -11,6 +15,11 @@ reload() {
 }
 
 reloadprofile() {
-    source "$HOME/.zshrc"
-    echo "Reloaded zshrc"
+    if [[ $SHELL =~ "zsh" ]]; then
+        source "$HOME/.zshrc"
+        echo "Reloaded zshrc"
+    elif [[ $SHELL =~ "bash" ]]; then
+        source "$HOME/.bashrc"
+        echo "Reloaded bashrc"
+    fi
 }
