@@ -73,7 +73,7 @@ HL_SEP_STYLE="%{$default_bg%}"
 # Segments of the separator line
 declare -A HL_SEP=(
   _PRE  ''
-  _LINE '_' # repeated char to create separator line, consider '▁'
+  _LINE '▁' # repeated char to create separator line, consider '▁'
   _POST ''
 )
 
