@@ -184,8 +184,8 @@ HL_TRUNC_REMOVAL=2
 
 
 # Prompt
-HL_PROMPT='%(#.#.%(!.!.$)) ' # consider '%#'
-HL_PROMPT="$bold$green➜$reset "
+# HL_PROMPT='%(#.#.%(!.!.$)) ' # consider '%#'
+HL_PROMPT="%{$bold$green%}↪%{$reset%} "
 
 # Right prompt
 HL_RPROMPT=''
