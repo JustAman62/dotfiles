@@ -1,10 +1,4 @@
 if [[ $SHELL =~ "zsh" ]]; then
-
-    # Prevent history being merged between tabs
-    setopt noincappendhistory
-    setopt nosharehistory
-    setopt appendhistory
-
     # Oh My Zsh customisation
     export ZSH="$HOME/.oh-my-zsh"
     ZSH_CUSTOM="$DOTFILE_DIR/zsh-custom"
@@ -14,4 +8,8 @@ if [[ $SHELL =~ "zsh" ]]; then
 
     source $ZSH/oh-my-zsh.sh
 
+    # Prevent history being merged between tabs
+    setopt noincappendhistory
+    setopt nosharehistory
+    setopt appendhistory
 fi
