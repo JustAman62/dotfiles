@@ -1,0 +1,380 @@
+[
+  {
+    "BTTTriggerType" : 202,
+    "BTTTriggerTypeDescriptionReadOnly" : "",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "43DA7A72-6911-4FB0-A9D9-D203827497AF",
+    "BTTGenericActionConfig2" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorBackgroundColorDark" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColorDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTSeparatorBackgroundColor" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTRepeatRate" : 1,
+    "BTTOrder" : 0
+  },
+  {
+    "BTTLastUpdatedAt" : 1714125942.5439839,
+    "BTTTriggerType" : 102,
+    "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Swipe Up",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "432FB468-B282-4ED6-9B6F-2F80D75C2F4B",
+    "BTTOrder" : 0,
+    "BTTActionsToExecute" : [
+      {
+        "BTTLastUpdatedAt" : 1714125942.543978,
+        "BTTTriggerParentUUID" : "432FB468-B282-4ED6-9B6F-2F80D75C2F4B",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "1338D00F-9228-4DEA-B835-4A3A416D6A0A",
+        "BTTLayoutIndependentActionChar" : "t",
+        "BTTShortcutToSend" : "55,17",
+        "BTTOrder" : 2
+      }
+    ]
+  },
+  {
+    "BTTLastUpdatedAt" : 1714125942.5439649,
+    "BTTTriggerType" : 103,
+    "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Swipe Down",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "A32892E4-42E1-43E0-A4A4-C67C13568784",
+    "BTTOrder" : 1,
+    "BTTActionsToExecute" : [
+      {
+        "BTTLastUpdatedAt" : 1714125942.543987,
+        "BTTTriggerParentUUID" : "A32892E4-42E1-43E0-A4A4-C67C13568784",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "50754358-300C-413F-90F6-75A908CB53B2",
+        "BTTLayoutIndependentActionChar" : "w",
+        "BTTShortcutToSend" : "55,13",
+        "BTTOrder" : 4
+      }
+    ]
+  },
+  {
+    "BTTLastUpdatedAt" : 1714090501.7852039,
+    "BTTTriggerType" : 100,
+    "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Swipe Left",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "2E5D8FD6-24D8-4BFF-A381-B408902A72AC",
+    "BTTOrder" : 2,
+    "BTTActionsToExecute" : [
+      {
+        "BTTLastUpdatedAt" : 1714090501.7851939,
+        "BTTTriggerParentUUID" : "2E5D8FD6-24D8-4BFF-A381-B408902A72AC",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "095FBD52-754B-4545-9D6E-840E7ABD6F00",
+        "BTTLayoutIndependentActionChar" : "TAB",
+        "BTTShortcutToSend" : "59,56,48",
+        "BTTOrder" : 6
+      }
+    ]
+  },
+  {
+    "BTTLastUpdatedAt" : 1714090501.7851911,
+    "BTTTriggerType" : 101,
+    "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Swipe Right",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "FC7FFE40-2AE9-41F0-98C1-08F168064CBA",
+    "BTTOrder" : 3,
+    "BTTActionsToExecute" : [
+      {
+        "BTTLastUpdatedAt" : 1714090501.785207,
+        "BTTTriggerParentUUID" : "FC7FFE40-2AE9-41F0-98C1-08F168064CBA",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "5669B937-D917-4BB0-B30C-2C07A474E0DB",
+        "BTTLayoutIndependentActionChar" : "TAB",
+        "BTTShortcutToSend" : "59,48",
+        "BTTOrder" : 8
+      }
+    ]
+  },
+  {
+    "BTTLastUpdatedAt" : 1714119508.8545079,
+    "BTTTriggerType" : 112,
+    "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Click",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "24A27FC0-137B-4385-B3D1-D9B71F5A20C1",
+    "BTTOrder" : 4,
+    "BTTActionsToExecute" : [
+      {
+        "BTTLastUpdatedAt" : 1714119508.8545041,
+        "BTTTriggerParentUUID" : "24A27FC0-137B-4385-B3D1-D9B71F5A20C1",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "4F615718-7714-46A6-A8C0-0550031B3AEE",
+        "BTTPredefinedActionType" : 1,
+        "BTTPredefinedActionName" : "Middle Click (At Current Mouse Position)",
+        "BTTOrder" : 10
+      }
+    ]
+  },
+  {
+    "BTTTriggerType" : 202,
+    "BTTTriggerTypeDescriptionReadOnly" : "",
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "B698EED5-40EC-41B5-A0EB-14BBFF18A372",
+    "BTTGenericActionConfig2" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorBackgroundColorDark" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColorDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTSeparatorBackgroundColor" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTShortcutKeyboardType" : 0,
+    "BTTRepeatRate" : 9,
+    "BTTShortcutKeyCode" : -1,
+    "BTTShortcutAdvancedModifierKeys" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTOrder" : 0,
+    "BTTAutoAdaptToKeyboardLayout" : 0
+  },
+  {
+    "BTTLastUpdatedAt" : 1739003545.835325,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "EAA65E74-32EE-439E-B2AC-21C9F016E158",
+    "BTTAdditionalConfiguration" : "1310729",
+    "BTTShortcutScope" : 0,
+    "BTTShortcutKeyboardType" : 0,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "v",
+    "BTTShortcutKeyCode" : 9,
+    "BTTShortcutAdvancedModifierKeys" : "1310729",
+    "BTTShortcutModifierKeys" : 1310720,
+    "BTTOrder" : 0,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTActionsToExecute" : [
+      {
+        "BTTLastUpdatedAt" : 1739003579.4511471,
+        "BTTTriggerParentUUID" : "EAA65E74-32EE-439E-B2AC-21C9F016E158",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "0559D26F-2B3C-4537-9C0E-BC33C8342C00",
+        "BTTPredefinedActionType" : 203,
+        "BTTPredefinedActionName" : "Show or Hide Clipboard  or  Pasteboard History",
+        "BTTAdditionalActionData" : {
+          "BTTMenuPositionRelativeTo" : 7,
+          "BTTActionClipboardManagerAutoSaveName" : "0559D26F-2B3C-4537-9C0E-BC33C8342C00",
+          "BTTMenuPositioningType" : 1,
+          "BTTMenuPositionPreventOffscreen" : 1
+        },
+        "BTTShortcutKeyboardType" : 0,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 13,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ],
+    "BTTTriggerConfig" : {
+      "BTTHUDText" : "fdsavda"
+    }
+  },
+  {
+    "BTTTriggerType" : 202,
+    "BTTTriggerTypeDescriptionReadOnly" : "",
+    "BTTTriggerClass" : "BTTTriggerTypeFloatingMenu",
+    "BTTUUID" : "DE77DC71-7575-42CD-9580-ADFFE4888FF0",
+    "BTTGenericActionConfig2" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorBackgroundColorDark" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColorDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTSeparatorBackgroundColor" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTRepeatRate" : 21,
+    "BTTOrder" : 0,
+    "BTTMenuConfig" : {
+
+    },
+    "BTTMenuAvailability" : 0,
+    "BTTMenuName" : "0.000000, 0.000000, 0.000000, 255.000000"
+  },
+  {
+    "BTTLastUpdatedAt" : 1767121753.4301181,
+    "BTTTriggerType" : 767,
+    "BTTTriggerTypeDescriptionReadOnly" : "Floating Menu",
+    "BTTTriggerClass" : "BTTTriggerTypeFloatingMenu",
+    "BTTUUID" : "B25DFD2F-B474-4E8E-AF98-8D9AA5C9DA97",
+    "BTTOrder" : 0,
+    "BTTTriggerName" : "Floating Menu: Notch Menu",
+    "BTTMenuItems" : [
+      {
+        "BTTLastUpdatedAt" : 1739006599.212889,
+        "BTTTriggerType" : 773,
+        "BTTTriggerTypeDescription" : "Standard Item",
+        "BTTTriggerParentUUID" : "B25DFD2F-B474-4E8E-AF98-8D9AA5C9DA97",
+        "BTTTriggerClass" : "BTTTriggerTypeFloatingMenu",
+        "BTTUUID" : "984C62DE-B3CE-464B-A3F0-258ABB55A169",
+        "BTTOrder" : 0,
+        "BTTTriggerName" : "Menu Item: show-hide-clipboard",
+        "BTTMenuItemActions" : [
+          {
+            "BTTLastUpdatedAt" : 1739004473.2138009,
+            "BTTTriggerParentUUID" : "984C62DE-B3CE-464B-A3F0-258ABB55A169",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeFloatingMenu",
+            "BTTUUID" : "532D3A86-E185-4C7C-BF2A-DB54040F3EC8",
+            "BTTPredefinedActionType" : 203,
+            "BTTPredefinedActionName" : "Show or Hide Clipboard  or  Pasteboard History",
+            "BTTAdditionalActionData" : {
+              "BTTActionClipboardManagerAutoSaveName" : "532D3A86-E185-4C7C-BF2A-DB54040F3EC8"
+            },
+            "BTTOrder" : 20
+          }
+        ],
+        "BTTMenuConfig" : {
+          "BTTMenuItemBorderColorHoverDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTMenuItemVisibleWhileActive" : 1,
+          "BTTMenuItemImageOffsetY" : -2,
+          "BTTMenuItemIconType" : 2,
+          "BTTMenuTextOffsetY" : 0,
+          "BTTMenuItemBackgroundTypeDark" : 4,
+          "BTTMenuItemSFSymbolName" : "clipboard",
+          "BTTMenuItemBackgroundColor" : "53.000001, 124.000000, 163.000005, 255.000000",
+          "BTTMenuItemSFSymbolStyle" : 0,
+          "BTTMenuItemBackgroundColorDark" : "108.442, 96.000, 190.435, 166.991",
+          "BTTMenuItemMinHeight" : 40,
+          "BTTMenuItemBackgroundColorHoverDark" : "90, 90.000, 180, 166.991",
+          "BTTMenuItemBorderColor" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTMenuHoverEndAnimationDuration" : 0.14999999999999999,
+          "BTTMenuItemImageHeight" : 20,
+          "BTTMenuItemBlurredBackground" : 1,
+          "BTTMenuItemIconPosition" : 4,
+          "BTTMenuItemBackgroundType" : 4,
+          "BTTMenuItemBorderColorDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTMenuItemBackgroundColorHover" : "23.000001, 87.000002, 120.000000, 255.000000",
+          "BTTMenuItemX" : 5,
+          "BTTMenuItemVisibleWhileInactive" : 0,
+          "BTTMenuItemAnimateHover" : 1,
+          "BTTMenuItemMaxHeight" : 40,
+          "BTTMenuAttributedText" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2821\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl}\n{\\colortbl;\\red255\\green255\\blue255;}\n{\\*\\expandedcolortbl;;}\n}",
+          "BTTMenuHoverStartAnimationDuration" : 0.14999999999999999,
+          "BTTMenuSizingBehavior" : 0,
+          "BTTMenuItemMinWidth" : 40,
+          "BTTMenuItemPositioningMode" : 1,
+          "BTTMenuItemMaxWidth" : 40,
+          "BTTMenuTextMinimumScaleFactor" : 0.29999999999999999,
+          "BTTMenuAppearanceStyle" : 0,
+          "BTTMenuItemBorderColorHover" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTLastChangeUUID" : "8DFB41A4-7CB0-49D9-AC15-A56789FD5F92",
+          "BTTMenuElementIdentifier" : "show-hide-clipboard",
+          "BTTMenuItemY" : -5,
+          "BTTMenuItemIconColor1" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTMenuAlwaysUseLightMode" : 1,
+          "BTTMenuItemImageOffsetX" : 0
+        },
+        "BTTMenuAvailability" : 0,
+        "BTTMenuName" : "show-hide-clipboard",
+        "BTTGestureNotes" : "Standard Item"
+      },
+      {
+        "BTTLastUpdatedAt" : 1739006580.8608332,
+        "BTTTriggerType" : 773,
+        "BTTTriggerTypeDescription" : "Standard Item",
+        "BTTTriggerParentUUID" : "B25DFD2F-B474-4E8E-AF98-8D9AA5C9DA97",
+        "BTTTriggerClass" : "BTTTriggerTypeFloatingMenu",
+        "BTTUUID" : "93325C34-99E1-4FBD-8FB5-65A0809D3FB1",
+        "BTTOrder" : 1,
+        "BTTTriggerName" : "Menu Item: show-screenshot-tools",
+        "BTTMenuItemActions" : [
+          {
+            "BTTLastUpdatedAt" : 1739004499.932302,
+            "BTTTriggerParentUUID" : "93325C34-99E1-4FBD-8FB5-65A0809D3FB1",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeFloatingMenu",
+            "BTTUUID" : "AC5BF4CF-55CF-4DF0-81B3-1820C6C5DC03",
+            "BTTPredefinedActionType" : 263,
+            "BTTPredefinedActionName" : "Capture & Edit Screenshot or Video (using new Mojave tools)",
+            "BTTOrder" : 21
+          }
+        ],
+        "BTTMenuConfig" : {
+          "BTTMenuItemBorderColorHoverDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTMenuItemVisibleWhileActive" : 1,
+          "BTTMenuItemImageOffsetY" : 1,
+          "BTTMenuItemIconType" : 2,
+          "BTTMenuTextOffsetY" : 0,
+          "BTTMenuItemBackgroundTypeDark" : 4,
+          "BTTMenuItemSFSymbolName" : "rectangle.dashed.badge.record",
+          "BTTMenuItemBackgroundColor" : "53.000001, 124.000000, 163.000005, 255.000000",
+          "BTTMenuItemBackgroundColorDark" : "108.442, 96.000, 190.435, 166.991",
+          "BTTMenuItemMinHeight" : 40,
+          "BTTMenuItemBackgroundColorHoverDark" : "90, 90.000, 180, 166.991",
+          "BTTMenuItemBorderColor" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTMenuHoverEndAnimationDuration" : 0.14999999999999999,
+          "BTTMenuItemImageHeight" : 20,
+          "BTTMenuItemBlurredBackground" : 1,
+          "BTTMenuItemIconPosition" : 4,
+          "BTTMenuItemBackgroundType" : 4,
+          "BTTMenuItemBorderColorDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTMenuItemBackgroundColorHover" : "23.000001, 87.000002, 120.000000, 255.000000",
+          "BTTMenuItemX" : 5,
+          "BTTMenuItemVisibleWhileInactive" : 0,
+          "BTTMenuItemAnimateHover" : 1,
+          "BTTMenuItemMaxHeight" : 40,
+          "BTTMenuAttributedText" : "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2821\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl}\n{\\colortbl;\\red255\\green255\\blue255;}\n{\\*\\expandedcolortbl;;}\n}",
+          "BTTMenuHoverStartAnimationDuration" : 0.14999999999999999,
+          "BTTMenuItemMinWidth" : 40,
+          "BTTMenuItemPositioningMode" : 1,
+          "BTTMenuItemMaxWidth" : 40,
+          "BTTMenuTextMinimumScaleFactor" : 0.29999999999999999,
+          "BTTMenuAppearanceStyle" : 0,
+          "BTTMenuItemBorderColorHover" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTLastChangeUUID" : "D8D9E577-60F3-48AA-94D5-9DD816AA9DDD",
+          "BTTMenuElementIdentifier" : "show-screenshot-tools",
+          "BTTMenuItemY" : -50,
+          "BTTMenuItemIconColor1" : "255.000000, 255.000000, 255.000000, 255.000000",
+          "BTTMenuAlwaysUseLightMode" : 1,
+          "BTTMenuItemDisplayOrder" : 0
+        },
+        "BTTMenuAvailability" : 0,
+        "BTTMenuName" : "show-screenshot-tools",
+        "BTTGestureNotes" : "Standard Item"
+      }
+    ],
+    "BTTFloatingMenuRenderedPreview" : "iVBORw0KGgoAAAANSUhEUgAAAMgAAAAICAYAAAC8sLAqAAAAAXNSR0IArs4c6QAAAHhlWElmTU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAABIAAAAAQAMb8kAAC5+AAOgAQADAAAAAQABAACgAgAEAAAAAQAAAMigAwAEAAAAAQAAAAgAAAAAslpCPQAAAAlwSFlzAAALEwAACogBk+2l_gAAADNJREFUWAnt0AENAAAAwqD3T20PBxEoDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQOfAwMZCAAB5btssQAAAABJRU5ErkJggg==",
+    "BTTMenuConfig" : {
+      "BTTMenuVerticalSpacing" : 5,
+      "BTTMenuAnchorRelation" : 5,
+      "BTTMenuFrameWidthHovered" : 400,
+      "BTTMenuSizingBehaviorHover" : 0,
+      "BTTMenuPositioningType" : 1,
+      "BTTMenuItemBorderWidth" : 2,
+      "BTTMenuResizeOnHover" : 1,
+      "BTTMenuPositionRelativeTo" : 16,
+      "BTTMenuOffsetX" : 0,
+      "BTTMenuOffsetY" : 2,
+      "BTTMenuItemShadowEnabled" : 0,
+      "BTTMenuItemCornerRadius" : 10,
+      "BTTMenuFrameWidth" : 100,
+      "BTTMenuFrameHeight" : 25,
+      "BTTMenuItemBorderColor" : "0.000, 0.000, 0.000, 0.000",
+      "BTTMenuItemPaddingTop" : 5,
+      "BTTMenuItemsUseModifierModes" : false,
+      "BTTMenuFrameHeightHovered" : 95,
+      "BTTMenuItemBlurredBackground" : 0,
+      "BTTMenuLayoutDirection" : 4,
+      "BTTMenuItemBackgroundType" : 4,
+      "BTTMenuItemPaddingLeft" : 10,
+      "BTTMenuItemBackgroundColorHover" : "0.000000, 0.000000, 0.000000, 255.000000",
+      "BTTMenuHorizontalSpacing" : 5,
+      "BTTMenuWindowLevel" : 2147483631,
+      "BTTMenuItemAnimateHover" : 0,
+      "BTTMenuItemPaddingRight" : 10,
+      "BTTMenuOpacityActive" : 1,
+      "BTTMenuWindowResizable" : 1,
+      "BTTMenuCloseAfterAction" : 0,
+      "BTTMenuOpacityInactive" : 1,
+      "BTTMenuAnchorMenu" : 5,
+      "BTTMenuTextMinimumScaleFactor" : 0.29999999999999999,
+      "BTTMenuShowIfWindowLevelEqualsEnabled" : 0,
+      "BTTMenuAppearanceStyle" : 1,
+      "BTTMenuItemBorderColorHover" : "0.000, 0.000, 0.000, 0.000",
+      "BTTLastChangeUUID" : "3D6A7E97-58BC-413B-9835-E79CB287BF52",
+      "BTTMenuElementIdentifier" : "Notch Menu",
+      "BTTMenuItemPaddingBottom" : 5,
+      "BTTMenuHoverExpansionDirection" : 4,
+      "BTTMenuAlwaysUseLightMode" : 1
+    },
+    "BTTMenuAvailability" : 0,
+    "BTTMenuName" : "Notch Menu"
+  }
+]
