@@ -13,3 +13,5 @@ if [[ $SHELL =~ "zsh" ]]; then
     setopt nosharehistory
     setopt appendhistory
 fi
+
+EDITOR="code -w"
