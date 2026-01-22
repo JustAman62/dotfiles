@@ -419,10 +419,9 @@ headline-git-status() {
 # Get the current direnv status
 headline-direnv-status() {
   local result=''
-
-  if [[ $(direnv status) =~ "Found RC allowed true" ]]; then
+  if [[ $(direnv status) =~ "Found RC allowed (true|0)" ]]; then
     result+="%{$reset$red%}ENV LOADED%{$reset%}"
-  elif [[ $(direnv status) =~ "Found RC allowed false" ]]; then
+  elif [[ $(direnv status) =~ "Found RC allowed (false|2)" ]]; then
     result+="%{$reset$yellow%}BLOCKED%{$reset%}"
   fi
 
